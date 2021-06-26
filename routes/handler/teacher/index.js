@@ -1,10 +1,10 @@
-const getUser = require('./getUser');
+const getTeacher = require('./getTeacher');
 // const postUser = require('./postUser');
 // const deleteStudent = require('./deleteStudent');
 // const addStudent = require('./addStudent');
 
 module.exports = {
-  getUser,
+  getTeacher,
 //   postUser,
 //   deleteStudent,
 //   addStudent

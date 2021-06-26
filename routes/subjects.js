@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-const usersHandler = require('./handler/users');
+const subjectsHandler = require('./handler/subject');
 
 
+router.get('/:id', subjectsHandler.getSubject);
 // router.get('/add', usersHandler.addStudent);
-router.get('/:id/edit', usersHandler.getUser);
 // router.post('/:id/edit', usersHandler.postUser);
-// router.get('/:id/delete', usersHandler.deleteStudent);
+// router.get('/:id/delete', usersHandler.deleteUser);
 
 module.exports = router;
