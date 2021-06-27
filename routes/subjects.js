@@ -5,8 +5,6 @@ const subjectsHandler = require('./handler/subject');
 
 
 router.get('/:id', subjectsHandler.getSubject);
-// router.get('/add', usersHandler.addStudent);
-// router.post('/:id/edit', usersHandler.postUser);
-// router.get('/:id/delete', usersHandler.deleteUser);
+router.get('/', subjectsHandler.getAllSubject);
 
 module.exports = router;
